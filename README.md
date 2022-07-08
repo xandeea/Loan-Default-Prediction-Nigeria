@@ -102,3 +102,13 @@ Para avaliação dos modelos, utilizou-se a métrica do F1-score, com validaçã
     <td>0.879994</td>
   </tr>
 </table>
+
+### 3.2 Seleção de Variáveis
+Para ver as variáveis que mais impactaram no modelo foi utilizado o método SelectKBest no modelo que obteve o melhor desempenho anteriormente. O modelo desempenhou melhor com k igual a 4. As quatro variáveis que tiveram mais impacto foram:
+
+<ul>
+    <li>Quantidade de dias mínimo para quitar o empréstimo</li>
+    <li>Média de empréstimo já pedidos pelo cliente</li>
+    <li>Quantidade de dias máximo para quitar o empréstimo</li>
+    <li>Média dos valores de empréstimos</li>
+</ul>

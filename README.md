@@ -84,21 +84,21 @@ Para avaliação dos modelos, utilizou-se a métrica do F1-score, com validaçã
     <td>0.880081</td>
   </tr>
   <tr>
-    <td>median</td>
-    <td>constant</td>
-    <td>StandardScaler</td>
-    <td>LeaveOneOutEncoder</td>
-    <td>LogisticRegression</td>
-    <td>0.882456</td>
-    <td>0.879994</td>
-  </tr>
-  <tr>
     <td>mean</td>
     <td>constant</td>
     <td>StandardScaler</td>
     <td>LeaveOneOutEncoder</td>
     <td>LogisticRegression</td>
     <td>0.882946</td>
+    <td>0.879994</td>
+  </tr>
+  <tr>
+    <td>mean</td>
+    <td>most_frequent</td>
+    <td>StandardScaler</td>
+    <td>LeaveOneOutEncoder</td>
+    <td>LogisticRegression</td>
+    <td>0.881966</td>
     <td>0.879994</td>
   </tr>
 </table>

@@ -112,3 +112,9 @@ Para ver as variáveis que mais impactaram no modelo foi utilizado o método Sel
     <li>Quantidade de dias máximo para quitar o empréstimo</li>
     <li>Média dos valores de empréstimos</li>
 </ul>
+
+## 4. Resultados e conclusão
+O modelo obteve ótimo desempenho prevendo a classe de bons pagadores, o que já era esperado por ser a maioria das pessoas no DataSet. Dos 1034 bons pagadores utilizados na base de teste, o modelo previu certo 996 vezes, cerca de 96%. Porém, na classe de mau pagadores, das 277 pessoas, o modelo previu certo apenas 51 vezes, cerca de 18%.
+
+Portanto, ainda existem muitas melhorias a serem feitas visando melhorar o desempenho na classe que temos menos informações. Para isso, podem ser usadas técnicas de balanceamento das classes ou até mesmo uma análise mais profunda dos dados referentes aos maus pagadores. Além disso, tanto a conversão de latitude/longitude quanto a criação do pipeline com muitos modelos e validação cruzada acabam requisitando muito desempenho da máquina, por isso, também deve-se pensar em maneiras de melhorar o desempenho e tempo de execução.
+

@@ -1,7 +1,7 @@
 <h1 align="center">Modelo de Predição Pagamento de Empréstimo Nigeria</h1>
 Esse notebook foi desenvolvido como a última atividade de um grupo de estudos em ciência de dados. Nessa semana, a ideia era aplicar os conhecimentos adquiridos durante os meses que se passaram o grupo. Para isso, deveríamos participar de uma competição da plataforma Zindi (https://zindi.africa/competitions/data-science-nigeria-challenge-1-loan-default-prediction).
 
-## 1. Sobre a competição
+## 1. Sobre a competição 
 A ideia da competição era prever o empréstimo pedido por algum cliente foi bom ou ruim. Para isso, foram disponibilizadas três bases de dados diferentes.
 
 ### 1.1 Base de Dados Demográfica:
